@@ -71,6 +71,3 @@ make menuconfig
 | luci-app-vssr | Hello World 科学上网插件 |
 | luci-app-wizard | 设置向导 |
 | luci-app-wrtbwmon | 流量监控 |
-
-
-
