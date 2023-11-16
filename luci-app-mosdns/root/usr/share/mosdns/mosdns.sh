@@ -81,9 +81,9 @@ adlist_update() {
             mkdir -p /etc/mosdns/rule/adlist
             rm -rf /etc/mosdns/rule/adlist/*
             \cp $AD_TMPDIR/* /etc/mosdns/rule/adlist
-            rm -rf "$AD_TMPDIR"
         }
     fi
+    rm -rf "$AD_TMPDIR"
 }
 
 geodat_update() (
